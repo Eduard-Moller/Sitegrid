@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw; 
+    justify-content: center;
+    align-content: start;
+    grid-gap: 1vw;
+}
+.container-flex{
+    display: flex;
+    margin: 0px;
+}
+
+h1{
+    grid-column: span 6;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#h-sobre {
+    padding-top: 15vh;
+} 
+#logo{
+    grid-column: 3/5;
+}
+#logo img{
+    width: 30vw;
+}
+nav{
+    width: 100vw;
+    grid-column: span 6;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    margin: 2vh;
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f6f6;
+}
+section{
+    width: 100vw;
+    min-height: 60vh;
+    
+}
+section p {
+    padding: 0vh 3vw 0vh 3vw;
+}
+section div{
+    grid-column: span 6;
+}
+h1 {
+    line-height: 40px;
+    padding-left: 5vw;
+    color: grey;
+}
+#sobre div div{
+    float: left;
+    width: 50%;
+    align-self: flex-end
+}
+#sobre div div img{
+    margin-top: 4vh;
+    width: 90%; 
+    border: black 1px solid;
+}
+#sobre{
+    letter-spacing: 1px;
+    line-height: 20px; 
+
+}
+#sobre div p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 2;
+    color: grey;
+
+}
+#cursos {
+    border: 2px solid gray;
+}
+#cursos div img {
+    width:100%;
+}
+
+#cursos div h2{ 
+    background-color:#ddd;
+    text-align: Center;
+    padding:2vh 0vh 2vh 0vh;
+}
+#curso-wd{     
+    border-top:1vh solid#f00;
+    margin-top: 2vh;  
+}                               
+
+#curso-prog{
+    margin-top: 2vh;
+    border-top:1vh solid#0f0;
+}
+#curso-bd{
+     margin-top: 2vh;
+    border-top:1vh solid#00f;
+}
+#planos h1 {
+    font-weight: bold;
+}
+#planos {
+    border: 2px solid gray;
+}
+#bronze {   
+    margin: 0;
+    border: 2px solid #363636;
+}
+#bronzecima {
+    background-color: #cd7f32 ;
+    height: 3vh;
+    margin: 0;
+}
+#bronzebaixo {
+    margin: 0px;
+    background-color:#cd7f32 ;
+    height:10vh;
+}
+#bronzebaixo h3 {
+    padding: 2vh;
+    font-size:30px;
+    color: grey;
+    font-weight: bold;
+}
+#h-bronze{
+    background-color: #f8f6f6;
+    border:1px solid #000;
+    margin: 0;
+    font-weight: bold;
+    color: grey;
+}
+#h-bronze h2{
+    text-align: center;
+}
+#contratar {
+    display: none;
+}
+#prata {
+    margin: 0;
+    border: 2px solid #363636;
+}
+#pratacima {
+    background-color: #C0C0C0 ;
+    height: 3vh;
+    margin: 0;
+}
+#pratabaixo {
+    margin: 0px;
+    background-color:#C0C0C0 ;
+    height:10vh;
+}
+#pratabaixo h3 {
+    padding: 2vh;
+    font-size:30px;
+    color: grey;
+    font-weight: bold;
+}
+#h-prata{
+    background-color: #f8f6f6;
+    border:1px solid #000;
+    margin: 0;
+    font-weight: bold;
+    color: grey;
+}
+#h-prata h2{
+    text-align: center;
+}
+#ouro {
+    margin: 0;
+    border: 2px solid #363636;
+}
+#ourocima {
+    background-color: gold;
+    height: 3vh;
+    margin: 0;
+}
+#ourobaixo {
+    margin: 0px;
+    background-color:gold ;
+    height:10vh;
+}
+#ourobaixo h3 {
+    padding: 2vh;
+    font-size:30px;
+    color: grey;
+    font-weight: bold;
+}
+#h-ouro{
+    background-color: #f8f6f6;
+    border:1px solid #000;
+    margin: 0;
+    font-weight: bold;
+    color: grey;
+}
+#h-ouro h2{
+    text-align: center;
+}
+p {
+    font-size: 18px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 3;  
+}
+#valores {
+    border: 2px solid grey;
+}
+#riscoazul {
+    height: 30px;
+    border-left: 1vh solid blue;
+}
+#riscoazul h2 {
+    font-size: 20px;
+    text-indent: 5px;
+    text-align: justify;
+    line-height: 1;
+    font-weight: bold;
+    color: grey ;  
+}
+#valores div .txt {
+    text-align: justify;
+    margin-top:3vh;
+    margin-right: 5vw;
+    margin-left:5vw;
+    font-size: 18px;
+    color: grey;
+    line-height: 1.5;
+}
+#riscovermelho {
+    height: 30px;
+    border-left: 1vh solid red ;
+}
+#riscovermelho h2 {
+    font-size: 20px;
+    text-indent: 5px;
+    text-align: justify;
+    line-height: 1;
+    font-weight: bold;
+    color: grey ;  
+}
+#riscoverde {
+    height: 30px;
+    border-left: 1vh solid green;
+}
+#riscoverde h2 {
+    font-size: 20px;
+    text-indent: 5px;
+    text-align: justify;
+    line-height: 1;
+    font-weight: bold;
+    color: grey ;  
+}
+#riscoamarelo {
+    height: 30px;
+    border-left: 1vh solid yellow;
+}
+#riscoamarelo h2 {
+    font-size: 20px;
+    text-indent: 5px;
+    text-align: justify;
+    line-height: 1;
+    font-weight: bold;
+    color: grey ;  
+}
+#riscorosa {
+    height: 30px;
+    border-left: 1vh solid purple;
+}
+#riscorosa h2 {
+    font-size: 20px;
+    text-indent: 5px;
+    text-align: justify;
+    line-height: 1;
+    font-weight: bold;
+    color: grey ;  
+}
+#riscoazulclaro {
+    height: 30px;
+    border-left: 1vh solid lightseagreen  ;
+}
+#riscoazulclaro h2 {
+    font-size: 20px;
+    text-indent: 5px;
+    text-align: justify;
+    line-height: 1;
+    font-weight: bold;
+    color: grey ;  
+}
+#textodesktop {
+    display: none;
+}
+#texto2 {
+    display: none;
+}
+@media only screen and (min-width: 980px){     
+    #logo{
+        grid-column: 1/2;
+    }
+    #logo img{
+        width: 10vw;
+    }
+    nav{
+        grid-column: 3/6
+    }
+    section div{
+        grid-column: span 2;
+    }
+    #sobre div{
+        grid-column: span 3;
+    }
+
+    #cursos{
+        display:flex;
+    }
+    #cursos div{
+        align-self: flex-end;
+        width: 30%;
+    }
+    nav {
+        margin: 0;
+        height: 10vh;
+        margin-top: 4vh;
+        margin-left: 30vw;
+    }
+    nav ul li a {
+        font-weight: bold;
+        font-size: 18px;
+    }
+    header {
+        height: 8vh;
+    }
+    #ouro {
+        margin: 0;
+        border: 1vh solid gold;
+    }
+    #prata {
+        border: 1vh solid #C0C0C0;
+        height: 52vh;
+        margin-top: 6vh;
+    }
+    #bronze {
+        border: 1vh solid #cd7f32;
+        height: 46vh;
+        margin-top: 12vh;
+    }
+    #contratar {
+        display: grid;
+    }
+    .botao {
+        width: 30%;
+        height: 4vh;
+        margin-left: 35%;
+        font-weight: bold;
+        color: grey;
+        font-size: 25px;
+    }
+    #texto2 {
+        display: grid;
+    }
+    #sobre p {
+        font-weight: bold;
+        margin-top: 4vh;
+        text-align: center;
+        font-size: 20px;}
